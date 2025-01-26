@@ -1,0 +1,60 @@
+body {
+    background-image: url("poster.jpeg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+ h1 {
+    text-align:center;
+    background-color: rgb(211, 144, 144);
+    border-radius:10px;
+    color:rgb(119,20,20);
+    border:3px;
+    border-style:solid;
+    border-color:rgb(173, 34, 34);
+    margin:35px 600px 35px 600px;
+    padding:5px;
+
+
+
+ }
+
+
+ 
+.navbar1{
+    font-size:20px;
+    font-variant: small-caps;
+    color:rgb(119, 20, 20);
+    h2{
+        text-decoration-line: underline;
+    }
+    p{
+        background-color:rgb(212, 142, 130);
+        
+    }
+    
+
+ }
+ .container2{
+    display: flex;
+    justify-content:right;
+    flex-direction: row;
+
+ a{
+    text-decoration: none;
+    background-color: rgb(223, 152, 152);
+    color:rgb(107, 16, 16);
+    width:60px;
+    height:20px;
+    padding:10px;
+    margin:1px 5px 1px 5px ;
+    border-radius: 10px;
+    border:2px solid rgb(134, 42, 42);
+    font-size:20px;
+    
+    
+    
+
+ }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to login in zomato</title>
+    <style>
+        body {
+            
+            background-image: url("page.avif");
+            background-size:cover ;
+            background-attachment:fixed ;
+        }
+
+        h1 {
+            background-color:rgb(209, 188, 161) ;
+            text-align: center;
+            font-size: xx-large;
+            color: rgb(179, 100, 26);
+            margin:10px 500px 10px 500px;
+            border-radius:10px;
+            border: 2px solid rgb(168, 100, 55)
+
+        }
+
+        .container1 {
+            text-align: center;
+            background-color: rgb(208, 188, 161);
+            color: rgb(226, 81, 55);
+            border:2px solid rgb(224, 87, 23);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 50px;
+            padding:10px;
+            
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>LOGIN DETAILS</h1>
+    <br>
+    <br>
+    <div class="container1">
+        <form action="login.html">
+            <label for="name">NAME:</label>
+            <input type="text" name="name" value="full name">
+            <br>
+            <br>
+            <label for="email:"> EMAIL</label>
+            <input type="text" name="email" value="email address">
+            <br>
+            <br>
+            <tr>
+                <td>SELECT LANGUAGES:</td>
+                <td><input type="radio" name="language">english</td>
+                <td><input type="radio" name="language"> telugu</td>
+                <td><input type="radio" name="language">hindi</td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>ADDRESS</td>
+                <td><input type="text" name="address" value="address"></td>
+            </tr>
+            <br>
+            <br>
+            <label for="food" name="food">FOOD YOU PREFER:</label>
+            <select name="food" id="food">
+            <option value="spicy food">spicy</option>
+            <option value="sweets">sweets</option>
+            <option value="non veg">non veg</option>
+            <option value="veg">veg</option>
+            </select>
+            <br>
+            <br>
+            <label for="contact">CONTACT NO:</label>
+            <input type="text" name="contact" value="+91">
+            <br>
+            <br>
+            <div class="container2">
+            <button onclick="document.location" >SUBMIT</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
